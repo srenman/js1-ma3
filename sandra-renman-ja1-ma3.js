@@ -32,7 +32,7 @@ let formattedSentence = sentence.replace("cats", "giraffes");
 
 // Question 4   Inte klar!!
 
-const queryString = "https://my.site.com/?userId=7";
+const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 
 let id = "";
